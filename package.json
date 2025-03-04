@@ -79,17 +79,5 @@
       "pre-commit": "lint-staged",
       "commit-msg": "commitlint --edit"
     }
-  },
-  "lint-staged": {
-    "*.{ts,tsx,js}": [
-      "eslint --ext .ts,.tsx,.js",
-      "pretty-quick --staged",
-      "git add"
-    ],
-    "*.md": [
-      "pretty-quick --staged",
-      "git add"
-    ]
-  },
-  "dependencies": {}
+  }
 }

@@ -32,12 +32,26 @@
     "url": "https://github.com/formilyjs/antd-mobile/issues"
   },
   "homepage": "https://github.com/formilyjs/antd-mobile#readme",
-  "publishConfig": {
-    "access": "public"
+  "dependencies": {
+    "@designable/core": "1.0.0-beta.45",
+    "@designable/formily-setters": "1.0.0-beta.45",
+    "@designable/formily-transformer": "1.0.0-beta.45",
+    "@designable/react": "1.0.0-beta.45"
   },
   "peerDependencies": {
+    "@formily/antd-mobile": "^1.0.0-beta.3",
+    "@formily/core": "^2.0.2",
+    "@formily/react": "^2.0.2",
+    "@formily/reactive": "^2.0.2",
+    "@formily/shared": "^2.0.2",
+    "@types/react": ">=16.8.0 || >=17.0.0",
+    "@types/react-dom": ">=16.8.0 || >=17.0.0",
+    "antd-mobile": "^5.0.0",
     "react": ">=16.8.0 || >=17.0.0",
     "react-dom": ">=16.8.0",
     "react-is": ">=16.8.0 || >=17.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

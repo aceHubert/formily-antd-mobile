@@ -1,6 +1,7 @@
 import './style'
 
 export * from './array-base'
+export * from './form'
 export * from './form-layout'
 export * from './form-item'
 export * from './form-grid'

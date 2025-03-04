@@ -17,7 +17,10 @@
     "importHelpers": true,
     "baseUrl": ".",
     "paths": {
-      "@formily/*": ["packages/*/src"]
+      "@formily/antd-mobile": ["packages/components/src"],
+      "@formily/antd-mobile/esm/*": ["./packages/components/src/*"],
+      "@formily/antd-mobile/lib/*": ["./packages/components/src/*"],
+      "@formily/antd-mobile-*": ["packages/*/src"]
     }
   }
 }
